@@ -1,0 +1,176 @@
+header {
+    height: 60px;
+    background-color: #F3EEEA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header #logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: rgb(63, 0, 0);
+    width: 100px;
+    float: left;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    color: #867070;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .menu , .event, .review {
+    display: block;
+    float: right;
+    margin-top: 5px;
+    background-color: #F3EEEA;
+}
+
+header .sign-up {
+    float: right;
+    border: 1px solid gray;
+    padding: 3px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+header .sign-in {
+    float: right;
+    margin-top: 5px;
+    background-color: #F3EEEA;
+    border-radius: 10px;
+} 
+
+main {
+    margin: 100px 40px 40px 40px;
+    padding: 30px;
+    border: 1px solid #d37d5e;
+}
+
+main .home {
+    height: 550px;
+}
+
+main .home .bg-image{
+    background-image: url("./photos/bg-img.jpg");
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+main .home .angel {
+    color: rgb(247, 108, 131);
+    font-size: 70px;
+    font-family: 'Sevillana', cursive;
+}
+
+main .home .cakes {
+    color: #b92626;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Lobster', sans-serif;
+}
+
+main .home .title {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+img {
+    display: block;
+    margin:  0 auto;
+}
+
+main .home p {
+    font-size: 15px;
+    font-family: 'Diphylleia', serif;
+    width: 100%;
+    margin-top: 70px;
+    color: #776B5D;
+    text-align: justify;
+}
+
+main .home button {
+    background-color: #f7d3f4;
+    border: 1.5px solid pink;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main .about {
+    margin-top: 40px;
+}
+
+main .about h2 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main .about p {
+    text-align: center;
+    font-family: 'Diphylleia', serif;
+}
+
+footer {
+    background-color:  #E4D0D0;
+    color: #867070;
+    text-align: center;
+    font-size: 15px;
+    padding: 50px 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+footer .sociallinks a {
+    color: #867070;
+    text-decoration: none;
+}
+
+footer .sociallinks i {
+    font-size: 45px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+footer .underline {
+    border: 1px solid #fff;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+@media(max-width:1000px) {
+    main .home .bg-image {
+        display: none;
+    }
+
+    main .home p {
+        margin-top: 40px;
+    }
+
+    main .home {
+        height: 400px;
+    }
+}
+
+@media(max-width:600px) {
+    main .home .angel {
+        font-size: 65px;
+    }
+
+    main .home .title {
+        font-size: 23px;
+    }
+
+    main .home {
+        height: 450px;
+    }
+}

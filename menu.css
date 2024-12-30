@@ -1,0 +1,306 @@
+header {
+    height: 60px;
+    background-color: #F3EEEA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header #logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: rgb(63, 0, 0);
+    width: 100px;
+    float: left;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    color: #867070;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .event , .home, .review {
+    display: block;
+    float: right;
+    margin-top: 5px;
+    background-color: #F3EEEA;
+}
+
+header .sign-up {
+    float: right;
+    border: 1px solid gray;
+    padding: 3px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+header .sign-in {
+    float: right;
+    margin-top: 5px;
+    background-color: #F3EEEA;
+    border-radius: 10px;
+} 
+
+main {
+    margin: 100px 40px 40px 40px;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main .underline {
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+main h4 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+main .container h2 {
+    font-family: 'Abril Fatface', serif;
+}
+
+main .cupcakes {
+    background-color: #ebe5dd;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+main .donus-breads {
+    background-color: #e0dfde;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+main .pies {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+main .cakes001 {
+    background-color: #FAEED1;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+main .birthday-cakes {
+    background-color: #FFDDCC;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+main .cake-card {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0 20px 0;
+    border: 1px solid white;
+    background: white;
+    width: 260px;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main .cake-card .details {
+    padding: 10px;
+}
+
+main .cake-card  img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+main .container .star {
+    color: black;
+    font-size: 12px;
+}
+
+main .container .heart-and-cart {
+    font-size: 30px;
+    float: right;
+}
+
+main .container .fa-heart {
+    cursor: pointer;
+    color: black;
+}
+
+main ,.container .fa-cart-shopping {
+    cursor: pointer;
+}
+
+main .birthday-cakes .cake-card {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0 5px 0;
+    border: 1px solid white;
+    background: white;
+    width: 260px;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main .big-cake {
+    width: 480px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0 0 0;
+    border: 1px solid white;
+    background: white;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main .big-cake img {
+    width: 470px;
+    height: 580px;
+    display: block;
+    margin: 0 auto;
+}
+
+main .big-cake .details {
+    padding: 10px;
+}
+
+footer {
+    background-color:  #E4D0D0;
+    color: #867070;
+    text-align: center;
+    font-size: 15px;
+    padding: 50px 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+footer .sociallinks a {
+    color: #867070;
+    text-decoration: none;
+}
+
+footer .sociallinks i {
+    font-size: 45px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+footer .underline {
+    border: 1px solid #fff;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+@media(max-width:1300px) {
+    main h5 {
+        text-align: start;
+    }
+
+    main .birthday-cakes .cake-card {
+        width: 210px;
+    }
+
+    main .birthday-cakes .cake-card img {
+        width: 200px;
+        height: 200px;
+    }
+
+    main .big-cake {
+        width: 330px;
+    }
+
+    main .big-cake img {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media(max-width:1000px) {
+    main {
+        margin: 100px 30px 30px 30px;
+    }
+
+    main .cake-card  img{
+        width: 200px;
+        height: 200px;
+    }
+
+    main .cake-card {
+        width: 210px;
+    }
+
+    main .cake-name {
+        font-size: 15px;
+    }
+    
+    main .container .star {
+        font-size: 10px;
+    }
+    
+    main .container .heart-and-cart {
+        font-size: 20px;
+    }
+
+    main .birthday-cakes .cake-card {
+        width: 160px;
+    }
+
+    main .birthday-cakes .cake-card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    main .big-cake {
+        width: 330px;
+    }
+
+    main .big-cake img {
+        width: 320px;
+        height: 320px;
+    }
+
+}
+
+@media(max-width:600px) {
+    main {
+        margin: 100px 20px 20px 20px;
+    }
+
+    main .cake-card img {
+        height: 150px;
+        width: 150px;
+    }
+
+    main .cake-card {
+        width: 160px;
+        padding: 5px 0 10px 0;
+    }
+
+    main .cake-name {
+        font-size: 15px;
+    }
+    
+    main .container .star {
+        font-size: 10px;
+    }
+    
+    main .container .heart-and-cart {
+        font-size: 20px;
+    }
+}
